@@ -1,0 +1,111 @@
+@font-face{
+    font-family: ArchitectsDaughter;
+    src: url(fonts/ArchitectsDaughter-Regular.ttf);
+}
+@font-face{
+    font-family: CarterOne;
+    src: url(fonts/CarterOne-Regular.ttf);
+}
+body{
+    margin: 0px;
+    background-image: url(images/background.jfif);
+    width: 100%;
+}
+#main{
+    width: 600px;
+    background-color: wheat;
+    margin: 0px auto;
+    height: 640px;
+    border-radius: 40px;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.5);
+}
+.h1{
+    text-align: center;
+    font-family: CarterOne;
+    font-size: 45px;
+    padding: 0px;
+    color: #80471c;
+    margin-bottom: 10px;
+}
+.subdiv1{
+    padding: 0px;
+    margin: 0px auto;
+    width: 90%;
+}
+input{
+    width: 445px;
+    height: 38px;
+    border: none;
+    font-size: 18px;
+    font-family: ArchitectsDaughter;
+    background-color: wheat;
+    border-bottom: 2px solid #80471c;
+}
+input:focus{
+    outline: none;
+}
+.btn{
+    width: 85px;
+    height: 42px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1em;
+    background-color: #80471c;
+    color: white;
+    margin-left: 1px;
+}
+.btn:focus{
+    outline: none;
+}
+.div{
+    padding: 5px;
+    /* display: flex;
+    justify-content: space-around; */
+    width: 90%;
+    font-family: ArchitectsDaughter;
+    margin: 0px auto;
+    margin-top: 10px;
+    border-bottom: 3px solid #9bd1fd;
+    border-radius: 5px;
+
+}
+.a{
+    margin-top: 5px;
+    margin: 0px auto;
+    margin-left: 250px;
+}
+.subdiv2{
+    margin-top: 5px;
+    padding: 0px;
+}
+.inner_div{
+    margin-top: 3px;
+}
+.small_btn{
+    width: 65px;
+    height: 32px;
+    border-radius: 7px;
+    border: none;
+    font-size: 1em;
+    background-color: #80471c;
+    color: white;
+    margin-left: 1px;
+}
+.small_btn:focus{
+    outline: none;
+}
+#subdiv3{
+    overflow: auto;
+    height: 450px;
+    overflow-wrap: break-word;
+}
+#subdiv3::-webkit-scrollbar{
+    width: 17px;
+    background-color: #80471c;
+    border-radius: 12px;
+}
+#subdiv3::-webkit-scrollbar-thumb{
+    background:#9bd1fd;
+    border-radius: 12px;
+}
+
